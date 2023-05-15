@@ -2,6 +2,7 @@ package com.obsquera.AutomationCourse;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 public class Base {
 	public WebDriver driver;
@@ -9,8 +10,13 @@ public class Base {
 	
 	public void initializeBrowser()
 	{
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\Documents\\Seleniumtestingtutorial\\AutomationCourse\\src\\main\\java\\Resources\\chromedriver.exe" );
-		driver=new ChromeDriver();
+		//To invoke Chrome Browser
+		//System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\Documents\\Seleniumtestingtutorial\\AutomationCourse\\src\\main\\java\\Resources\\chromedriver.exe" );
+		//driver=new ChromeDriver();
+		
+		//To invoke Edge Browser
+		System.setProperty("webdriver.edge.driver","C:\\Users\\user\\git\\AutomationCourse\\AutomationCourse\\src\\main\\java\\Resources\\msedgedriver.exe" );
+		driver=new EdgeDriver();
 		driver.get("https://www.amazon.in/");
 	}
 	
