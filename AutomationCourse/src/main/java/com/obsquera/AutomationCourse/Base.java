@@ -15,8 +15,8 @@ public class Base {
 	{
 		//To invoke Chrome Browser
 		
-		//System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\git\\AutomationCourse\\AutomationCourse\\src\\main\\java\\Resources\\chromedriver.exe" );
-	   //driver=new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\git\\AutomationCourse\\AutomationCourse\\src\\main\\java\\Resources\\chromedriver.exe" );
+	   driver=new ChromeDriver();
 		
 		//To invoke Edge Browser
 		
@@ -26,8 +26,8 @@ public class Base {
 		
 		//To invoke firefox Browser
 		
-		System.setProperty("webdriver.gecko.driver","C:\\Users\\user\\git\\AutomationCourse\\AutomationCourse\\src\\main\\java\\Resources\\geckodriver.exe" );
-		driver= new FirefoxDriver();
+		//System.setProperty("webdriver.gecko.driver","C:\\Users\\user\\git\\AutomationCourse\\AutomationCourse\\src\\main\\java\\Resources\\geckodriver.exe" );
+		//driver= new FirefoxDriver();
 		driver.get("https://www.amazon.in/");
 		//System.out.println("Success");
 		
