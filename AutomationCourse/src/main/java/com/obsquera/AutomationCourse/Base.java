@@ -25,6 +25,7 @@ public class Base {
 		System.setProperty("webdriver.gecko.driver","C:\\Users\\user\\Documents\\Seleniumtestingtutorial\\AutomationCourse2\\src\\main\\java\\Resources\\geckodriver.exe" );
 		driver= new FirefoxDriver();
 		driver.get("https://www.amazon.in/");
+		System.out.println("Success");
 	}
 	
 
