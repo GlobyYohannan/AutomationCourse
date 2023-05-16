@@ -22,8 +22,8 @@ public class Base {
 		//driver.get("https://www.amazon.in/");
 		
 		//To invoke firefox Browser
-		//System.setProperty("webdriver.gecko.driver","C:\\Users\\user\\Documents\\Seleniumtestingtutorial\\AutomationCourse2\\src\\main\\java\\Resources\\geckodriver.exe" );
-		//driver= new FirefoxDriver();
+		System.setProperty("webdriver.gecko.driver","C:\\Users\\user\\Documents\\Seleniumtestingtutorial\\AutomationCourse2\\src\\main\\java\\Resources\\geckodriver.exe" );
+		driver= new FirefoxDriver();
 		driver.get("https://www.amazon.in/");
 	}
 	
