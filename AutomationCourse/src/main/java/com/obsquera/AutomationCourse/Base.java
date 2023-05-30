@@ -28,9 +28,9 @@ public class Base {
 		
 		//System.setProperty("webdriver.gecko.driver","C:\\Users\\user\\git\\AutomationCourse\\AutomationCourse\\src\\main\\java\\Resources\\geckodriver.exe" );
 		//driver= new FirefoxDriver();
-		driver.get("https://www.amazon.in/");
+		//driver.get("https://www.amazon.in/");
 		//System.out.println("Success");
-		
+		//driver.manage().window().maximize();
 		
 	}
 	
